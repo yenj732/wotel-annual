@@ -14,11 +14,13 @@ async function main() {
 
         const btnMessage = document.getElementById('sendButton');
         btnMessage.addEventListener('click', () => {
-            let message = "Wotel周年慶活動參與:" + document.querySelector("#account").value;
-            if(message == ""){
+            
+            if(document.querySelector("#account").value == ""){
                 alert("未輸入Wotel帳號!!!")
                 return;
             }
+
+            let message = "Wotel周年慶活動參與:" + document.querySelector("#account").value;
                 
             console.log(message)
             liff.sendMessages([
