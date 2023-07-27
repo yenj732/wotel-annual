@@ -1,4 +1,4 @@
-var liffID = '2000189044-Q1ZYKkXn';
+var liffID = '2000189044-QBdJqpnr';
 
 async function main() {
     await liff.init({
