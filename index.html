@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wotel周年慶</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <section class="container">
+
+        <div class="box">
+
+            <h1 class="title">
+                <div class="text">
+                    WOTEL <br>周年慶活動
+                </div>
+            </h1>
+
+            <div class="shadow">
+                <div class="enterBox">
+                    <input id="account" placeholder="請輸入Wotel帳號">
+                    <span class="btn" onclick="openCheckWindow()">送出</span>
+                </div>
+            </div>
+
+            <div class="eventWay">
+                <h2>活動辦法</h2>
+                <div style="padding: 0.5rem;">
+                    <p>活動期間於Wotel<b>官方Line帳號內</b>開啟此頁面</p>
+                    <p>輸入Wotel帳號後<b>送出</b></p>
+                    <p>即可報名參加</p>
+                    <p>經查核無誤後</p>
+                    <p>便可獲得<b>一個月的Wotel商業會員</b></p>
+                </div>
+            </div>
+
+            <div class="shadow">
+
+                <div class="blackBack">
+                    <h3>
+                        活動規則
+                    </h3>
+
+                    <ul>
+                        <li>每個Line帳號與Wotel帳號限參與一次</li>
+                        <li>活動獎品僅限個人使用</li>
+                        <li>活動贈與之商業會員期限為1個月</li>
+                        <li>重複登記者視情節取消參與資格</li>
+                        <li>本活動之最終解釋權歸Wotel所有</li>
+                    </ui>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <div id="checkWindow">
+        <div class="allBlackBack" onclick="openCheckWindow()"></div>
+
+        <div class="infoBox">
+            <div style="padding: 0 2rem;">
+
+                <h2>確認送出?</h2>
+                <div>送出後將無法更改，請確認資料無誤！</div>
+
+                <div
+                    style="display: flex; justify-content: center; margin-top: 1rem; filter: drop-shadow(4px 4px 0 #000);">
+                    <span id="sendButton" class="btn btn-confirm">確認</span>
+                    <span class="btn btn-cancel" onclick="openCheckWindow()">取消</span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="customFunction.js"></script>
+</body>
+
+</html>
