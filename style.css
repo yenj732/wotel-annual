@@ -132,6 +132,8 @@ input{
     padding: 0 1rem;
     border-radius: 8px;
     margin-left: 1rem;
+    cursor: pointer;
+    user-select: none;
 }
 
 .btn.btn-confirm{
