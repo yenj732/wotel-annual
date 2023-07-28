@@ -218,7 +218,7 @@ input{
     background: repeating-linear-gradient(45deg, black, black 4px, transparent 4px, transparent 10px);    ;
     width: 30%;
     height: 3rem;
-    top: 70%;
+    top: 22rem;
     left: 0;
     z-index: -1;
 }
