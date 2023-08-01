@@ -14,7 +14,6 @@ async function main() {
 
         const btnMessage = document.getElementById('sendButton');
         btnMessage.addEventListener('click', () => {
-            
             if(document.querySelector("#account").value == ""){
                 alert("未輸入Wotel帳號!!!")
                 return;
